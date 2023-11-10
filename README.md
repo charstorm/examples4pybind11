@@ -18,6 +18,10 @@ Note: I have no involvement in the pybind11 project. This is an independent work
 ## Build & Run
 
 - Create and enable a venv
+    - `python -m venv my_env_name`
+    - `source my_env_name/bin/activate`
+    - `python3 -m pip install -r requirements.txt`
+    - `deactivate` # to end your session in this venv
 - Install the project requirements from requirements.txt
 - For all directories except `e07_setup_py`:
     - cd to the directory
